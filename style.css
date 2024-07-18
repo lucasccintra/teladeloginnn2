@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Estilos básicos para o corpo da página */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para o contêiner do formulário */
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+/* Estilo para os rótulos dos inputs */
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #333333;
+}
+
+/* Estilo para os inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Estilo para o botão de submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #004d40;
+}
+
+/* Estilo para mensagens de sucesso e erro */
+.success {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.error {
+    color: #e53935;
+    font-weight: bold;
+    margin-top: 15px;
+}
